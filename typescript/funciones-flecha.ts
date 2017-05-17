@@ -20,4 +20,4 @@ let hulk2 = {
     setTimeout( () => console.log(this.nombre), 1500);
   }
 }
-hulk2.smash(); // Imprime  Hulk
+hulk2.smash(); // Imprime  Hulk el this.nombre referencia al objeto actual

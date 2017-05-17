@@ -15,4 +15,4 @@ var hulk2 = {
         setTimeout(function () { return console.log(_this.nombre); }, 1500);
     }
 };
-hulk2.smash(); // Imprime  Hulk
+hulk2.smash(); // Imprime  Hulk el this.nombre referencia al objeto actual
