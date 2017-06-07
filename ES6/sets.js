@@ -1,6 +1,5 @@
 
 // A set is a list of values that cannot contain duplicates.
-
 let set = new Set();
 set.add(5);
 set.add("5");
@@ -72,3 +71,27 @@ let numbers = [1, 2, 3, 3, 3, 4, 5],
 console.log(noDuplicates);      // [1,2,3,4,5]
 
 // Weak Sets
+// ECMAScript 6 also includes weak sets, which only store weak object references and cannot store primitive values. A weak reference to an object does not //prevent garbage collection if it is the only remaining reference.
+let set = new WeakSet(),
+    key = {};
+
+// add the object to the set
+set.add(key);
+
+console.log(set.has(key));      // true
+
+set.delete(key);
+
+console.log(set.has(key));      // false
+
+// The biggest difference between weak sets and regular sets is the weak reference held to the object value. Here’s an example that demonstrates that difference:
+let set = new WeakSet(),
+    key = {};
+
+// add the object to the set
+set.add(key);
+
+console.log(set.has(key));      // true
+
+// remove the last strong reference to key, also removes from weak set
+key = null;
