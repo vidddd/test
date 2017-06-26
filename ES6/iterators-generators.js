@@ -25,3 +25,40 @@ function *createIterator(items) {
 let iterator = createIterator([1, 2, 3]);
 
 // Generator functions are an importan feature of ECMASCript 6
+
+// Generator Function Expressions
+let createIterator = function *(items) {
+    for (let i = 0; i < items.length; i++) {
+        yield items[i];
+    }
+};
+
+let iterator = createIterator([1, 2, 3]);
+
+console.log(iterator.next());           // "{ value: 1, done: false }"
+console.log(iterator.next());           // "{ value: 2, done: false }"
+console.log(iterator.next());           // "{ value: 3, done: false }"
+console.log(iterator.next());           // "{ value: undefined, done: true }"
+// for all further calls
+console.log(iterator.next());           // "{ value: undefined, done: true }"
+
+
+// Generator object method
+var o = {
+    *createIterator(items) {
+        for (let i = 0; i < items.length; i++) {
+            yield items[i];
+        }
+    }
+};
+
+let iterator = o.createIterator([1, 2, 3]);
+
+// All collection objects (arrays, sets, and maps) and strings are iterables in ECMAScript 6
+let values = [1, 2, 3];
+
+for (let num of values) {
+    console.log(num);
+}
+
+//Accessing the Default Iterator
