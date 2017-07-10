@@ -1,3 +1,13 @@
-<p>
-  heroe works!
-</p>
+
+<h1>{{ heroe.nombre | uppercase }}</h1>
+<hr>
+<div class="row animated fadeIn fast">
+  <div class="col-sm-4">
+        <img class="card-img-top img-fluid" [src]="heroe.img" [alt]="heroe.nombre">
+        <br><br>
+        <a [routerLink]="['/heroes']" class="btn btn-clock">Regresar</a>
+  </div>
+  <div class="col-sm-8">
+      <p>{{ heroe.bio }}</p>
+  </div>
+</div>
