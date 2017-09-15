@@ -13,3 +13,16 @@ else
 // por tanto EL ORDEN DE LAS CONDICIONES ES IMPORTANTE
 
 if(  persona.Rol == "Administrador" && persona != null)  // ERROR
+
+//Debemos usar el cortocircuito de expresiones condicionales a nuestro favor y tenerlo en cuenta cuando ejecutemos código.
+
+/*
+Nota: Por cierto, para comprobar que una variable no es nula no es necesario siquiera escribir expresiones como:
+
+if ( persona != null)…
+
+ya que JavaScript considera los nulos como falsos, así que si en este ejemplo escribimos simplemente el nombre de la variable conseguiremos exactamente el mismo efecto:
+
+if (persona)…
+
+*/
