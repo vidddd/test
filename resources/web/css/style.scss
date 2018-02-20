@@ -1,0 +1,76 @@
+/*********************
+IMPORTING PARTIALS
+These files are needed at the beginning so that we establish all
+our mixins, functions, and variables that we'll be using across
+the whole project.
+*********************/
+
+// normalize: http://necolas.github.io/normalize.css/
+@import "partials/normalize";
+
+// Sass variables
+@import "partials/variables";
+
+
+// Sass functions
+// @import "partials/functions";
+
+// import mixins
+@import "partials/mixins";
+
+
+/*********************
+IMPORTING MODULES
+Modules are reusable blocks or elements we use throughout the project.
+We can break them up as much as we want or just keep them all in one.
+I mean, you can do whatever you want. The world is your oyster. Unless
+you hate oysters, then the world is your peanut butter & jellsy sandwich.
+*********************/
+
+// alert boxes
+//@import "modules/alerts";
+
+// buttons
+//@import "modules/buttons";
+
+// forms (inputs & labels)
+//@import "modules/forms";
+
+/*********************
+BASE (MOBILE) SIZE
+This are the mobile styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important.
+*********************/
+
+// styles in base.scss
+
+@import "breakpoints/base";
+@import "breakpoints/hq";
+@import "breakpoints/bigger";
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+	@import "breakpoints/1024";
+
+}
+@media only screen and (max-width: 768px) {
+
+	@import "breakpoints/768";
+
+} // end of media query
+
+@media only screen and (max-width: 580px) {
+	@import "breakpoints/580";
+}
+
+@media only screen and (max-width: 480px) {
+
+	@import "breakpoints/480";
+
+} // end of media query
+
+@import "breakpoints/smaller";

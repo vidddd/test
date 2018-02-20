@@ -1,0 +1,30 @@
+body{
+	main{
+		section{
+			&.feed{
+				.feed-container{
+					.participations{
+						.btn-particioations{
+							@include  flex-wrap(wrap);
+							.btn{
+								margin: 5px 0;
+								width: 100%;
+								&.btn-facebook{
+									width: 100%;
+									margin: 5px 0;
+								}
+								&.btn-instagram{
+									width: 100%;
+									margin: 5px 0;
+									.info-instagram{
+										left: 50%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

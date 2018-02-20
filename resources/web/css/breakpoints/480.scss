@@ -1,0 +1,259 @@
+body{
+	header{
+		padding-left: 12px;
+	}
+	main{
+		section{
+			&.header-video{
+				/*a.full-version{
+					display: none;
+				}*/
+				.scroll{
+					bottom: 10px;
+					span.text{
+						display: none;
+					}
+				}
+			}
+			&.russia{
+				height: 462px;
+				padding-top: 44px;
+				h1{
+					font-size: 51px;
+					line-height: 51px;
+					padding: 0 10px;
+				}
+				.title{
+					padding: 0 20px;
+					h3{
+						font-size: 35px;
+						line-height: 35px;
+						padding: 0;
+						&.mobile{
+							display: block;
+						}
+						&:not(.mobile){
+							display: none;
+						}
+					}
+				}
+				.circle{
+					width: 290px;
+					height: 290px;
+					bottom: -41%;
+					left: 35px;
+					&.circle_1{
+						.ball_1{
+							transform: scale(1.8);
+						}
+					}
+					&.circle_2{
+						transform: rotate(-19deg);
+						.ball_2{
+							transform: scale(1.2);
+						}
+					}
+					&.circle_3{
+						.ball_3{
+							transform: scale(0.9);
+						}
+					}
+					&.circle_4{
+						.ball_4{
+							transform: scale(0.5);
+						}
+					}
+				}
+				img.catedral{
+					width: 280px;
+				}
+			}
+			&.info{
+				.container-info{
+					.left{
+						.container-gif{
+							padding-top: 89%;
+							img{
+								top: 17px;
+								left: 17px;
+							}
+						}
+					}
+					.right{
+						padding-left: 5px;
+						padding-right: 5px;
+						h3{
+							font-size: 45px;
+							line-height: 45px;
+							letter-spacing: -1px;
+						}
+						p{
+							padding: 15px 21px 25px;
+							font-size: 17px;
+						}
+						.hashtag{
+							font-size: 32px;
+						}
+					}
+				}
+			}
+			&.feed{
+				padding-bottom: 170px;
+				// .feed-header{
+				// 	padding: 190px 0px 34px;
+				// }
+				.info-prizes{
+					top: 220px;
+					.overflow-inner{
+						.inner{
+							padding: 0 20px;
+							.list-prizes{
+								.week{
+									font-size: 24px;
+								}
+								.text-prize{
+									p{
+										font-size: 16px;
+									}
+								}
+							}
+						}
+					}
+				}
+				.feed-container{
+					padding: 0 20px;
+					.feed-header{
+						padding: 75px 0px 34px;
+						h1{
+							font-size: 48px;
+							line-height: 48px;
+						}
+						ul{
+							font-size: 16px;
+							line-height: 23px;
+							li{
+								padding: 6px 0;
+							}
+						}
+					}
+					.participations{
+						padding-top: 85px;
+						.btn-particioations{
+							.btn{
+								&.btn-instagram{
+									.info-instagram{
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+					.winners{
+						h4.title{
+							font-size: 40px;
+						}
+						.winners-wrap{
+							.single-winner-wrap{
+								width: 50%;
+								.winner-image{
+									.winner-name{
+										font-size: 16px;
+										bottom: -25px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			&.shop{
+				padding-top: 117px;
+				padding-bottom: 58px;
+				.shop-container{
+					.case-img{
+						top: -132px;
+						width: 290px;
+					}
+					h1{
+						font-size: 85px;
+						line-height: 85px;
+					}
+					p{
+						font-size: 16px;
+						line-height: 19px;
+						padding-top: 15px;
+						width: 90%
+					}
+					a{
+						font-size: 17px;
+					}
+				}
+			}
+			&.ronaldo-feeds{
+				.feeds-container{
+					padding: 0 15px;
+					.row{
+						h1{
+							font-size: 47px;
+							line-height: 47px;
+						}
+					}
+				}
+			}
+			&.subscription{
+				.subscription-container{
+					padding: 0 25px;
+					.row{
+						.left{
+							.wrap-image{
+								width: 250px;
+								left: 11%;
+							}
+						}
+						.right{
+							width: 100%;
+							padding: 40px 0px 0px 0px;
+							margin-bottom: 20px;
+							.inner{
+								h4{
+									font-size: 39px;
+								}
+								p{
+									font-size: 18px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	footer{
+		.footer-container{
+			.right{
+				.logo{
+					width: 90px;
+				}
+				p.title{
+					font-size: 20px;
+				}
+			}
+		}
+	}
+	&.jp{
+		main section.russia h1{
+			font-size: 30px!important;
+		}
+		main section.shop .shop-container h1{
+			font-size: 40px!important;
+		}
+		main section.ronaldo-feeds .feeds-container .row h1{
+			font-size: 26px!important;
+		}
+	}
+	&.th{
+		main section.feed .feed-container .feed-header h1 br{
+		    display: none;
+		}
+	}
+}

@@ -1,0 +1,158 @@
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 340px) {
+	body{
+		main{
+			section{
+				&.russia{
+					h1{
+						font-size: 47px;
+						line-height: 47px;
+					}
+					.circle{
+						width: 240px;
+						height: 240px;
+						bottom: -33%;
+						left: 37px;
+						&.circle_1{
+							.ball_1{
+								transform: scale(1.5);
+							}
+						}
+						&.circle_2{
+							transform: rotate(-19deg);
+							.ball_2{
+								transform: scale(1);
+							}
+						}
+						&.circle_3{
+							.ball_3{
+								transform: scale(0.6);
+							}
+						}
+						&.circle_4{
+							.ball_4{
+								transform: scale(0.3);
+							}
+						}
+
+					}
+					img.catedral{
+						width: 247px;
+					}
+				}
+				&.info{
+					.container-info{
+						.right{
+							h3{
+								font-size: 38px;
+								line-height: 38px;
+								letter-spacing: -1px;
+							}
+							p{
+								font-size: 15px;
+								padding: 15px 10px 25px;
+							}
+							.hashtag{
+								font-size: 27px;
+							}
+						}
+					}
+				}
+				&.feed{
+					padding-bottom: 160px;
+					.feed-container{
+						.feed-header{
+							padding: 55px 0px 34px;
+							h1{
+								font-size: 42px;
+								line-height: 42px;
+							}
+							p{
+								font-size: 16px
+							}
+							ul{
+								font-size: 16px;
+								li{
+									padding: 6px 0;
+								}
+							}
+						}
+						.feed-gallery{
+							.feed-gallery-wrapper{
+								.gallery-images-wrapper{
+									.arrows{
+										top: 113%;
+										.arrow{
+											width: 25px;
+											height: 25px;
+										}
+									}
+								}
+							}
+						}
+						.participations{
+							.total{
+								padding-top: 50px;
+							}
+						}
+						.winners{
+							margin-top: 60px;
+						}
+					}
+				}
+				&.shop{
+					.shop-container{
+						.case-img{
+							top: -129px;
+							width: 280px;
+						}
+						h1{
+							font-size: 80px;
+							line-height: 80px;
+						}
+						p{
+							font-size: 15px;
+						}
+					}
+				}
+				&.ronaldo-feeds{
+					.feeds-container{
+						padding: 0 6px;
+						.row{
+							h1{
+								font-size: 43px;
+								line-height: 45px;
+							}
+						}
+					}
+				}
+				&.subscription{
+					.subscription-container{
+						.row{
+							padding-top: 0;
+							.right{
+								.inner{
+									h4{
+										font-size: 34px;
+										line-height: 34px;
+									}
+									p{
+										font-size: 16px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

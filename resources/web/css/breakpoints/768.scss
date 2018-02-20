@@ -1,0 +1,333 @@
+body{
+	padding-top: 75px;
+	.cookies{
+		height: auto;
+	    bottom: -280px;
+		.inner{
+			width: 96%;
+			text-align: center!important;
+			margin-bottom: 27px;
+			.left{
+				width: 100%;
+				h3{
+					font-size: 15px;
+    				margin-bottom: 10px;
+				}
+				p{
+					font-size: 11px;
+					margin-top: 0;
+				}
+			}
+			.right{
+				width: 100%;
+				button{
+					float: none!important;
+				    display: inline-block;
+				    margin-top: 20px;
+				    height: 40px;
+				}
+				p{
+					text-align: center!important;
+				    float: none!important;
+				    display: inline-block;
+				    margin-top: 20px;
+				    font-size: 11px;
+				    width: 100%;
+				}
+			}
+		}
+
+	}
+	header{
+		height: 75px;
+		.header-container{
+			.logo{
+				width: 69px;
+			}
+			.header-languages-container{
+				.language{
+					width: 30px;
+					.country-name{
+						letter-spacing: 3px;
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+	aside{
+		height: 75px;
+		width: 75px;
+		.aside-container{
+			.languages-container{
+				.languages-content{
+					.languages-selector{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	main{
+		section{
+			&.header-video{
+				height: calc(100vh - 75px);
+			}
+			&.russia{
+				height: 590px;
+				h1{
+					font-size: 75px;
+					line-height: 65px;
+				}
+				.title{
+					h3{
+						font-size: 40px;
+						line-height: 37px;
+						padding: 0 30px;
+					}
+				}
+				.circle{
+					width: 440px;
+					height: 440px;
+					bottom: -48%;
+				}
+				img.catedral{
+					width: 370px;
+				}
+			}
+			&.info{
+				.container-info{
+					.right{
+						padding-top: 50px;
+						h3{
+							font-size: 55px;
+							line-height: 55px;
+						}
+					}
+				}
+			}
+			&.feed{
+				.info-prizes{
+				    padding: 50px 20px;
+				    .init-prize{
+				        font-size: 34px;
+				    }
+				    .sub-text{
+				    	font-size: 17px;
+				    	br{
+				    		display: none;
+				    	}
+				    }
+				}
+				.feed-container{
+					.feed-header{
+						span.icon-instagram{
+							width: 36px;
+							height: 36px;
+						}
+						span.icon-facebook{
+							width: 21px;
+							height: 38px;
+						}
+						h1{
+							font-size: 55px;
+							line-height: 55px;
+						}
+					}
+					padding: 0 40px;
+					.feed-pagination{
+						width: 100%;
+						margin: initial;
+						padding: 5px 6px;
+					}
+					.feed-gallery{
+						.feed-gallery-wrapper{
+							.gallery-images-wrapper{
+								width: 100%;
+								margin: initial;
+								.arrows{
+									top: 110%;
+									.arrow{
+										width: 28px;
+										height: 28px;
+										&.arrow-left{
+											left: calc(50% - 90px);
+										}
+										&.arrow-right{
+											right: calc(50% - 90px);
+										}
+									}
+								}
+							}
+						}
+					}
+					// .feed-pager{
+					// 	@include flexbox();
+					// }
+					.participations{
+						    padding-top: 120px;
+						.btn-particioations{
+							.btn{
+								&.btn-instagram{
+									.info-instagram{
+										left: 80%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			&.shop{
+				.shop-container{
+					.case-img{
+						top: -172px;
+						width: 375px;
+					}
+					h1{
+						font-size: 126px;
+						line-height: 126px;
+					}
+					p{
+						font-size: 17px;
+						line-height: 19px;
+						padding-top: 25px;
+						width: 80%;
+						br{
+							display: none;
+						}
+					}
+					a{
+						font-size: 28px;
+					}
+				}
+			}
+			&.ronaldo-feeds{
+				.feeds-container{
+					padding: 0 38px;
+					.row{
+						h1{
+							font-size: 55px;
+							line-height: 55px;
+						}
+						.feeds-wrap{
+							.feed-container{
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+			&.subscription{
+				.subscription-container{
+					padding: 0 30px;
+					.row{
+						.left{
+							.wrap-image{
+								width: 300px;
+							}
+						}
+						.right{
+							width: 95%;
+							padding: 28px 0px 0px 25px;
+							.inner{
+								form{
+									button{
+										font-size: 16px;
+										padding: 0px 32px 0px 32px;
+										height: 56px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	footer{
+		.footer-container{
+			padding: 20px 20px 25px 20px;
+			.left{
+				width: 100%;
+				float: none;
+				padding-bottom: 7px;
+				ul{
+					text-align: center;
+					li{
+						a{
+							width: 50px;
+							height: 50px;
+							line-height: 53px;
+							i{
+								font-size: 33px;
+								&.fa-facebook{
+									font-size: 30px;
+								}
+							}
+						}
+					}
+				}
+			}
+			.right{
+				width: 100%;
+				float: none;
+				text-align: center;
+				padding-right: 0px;
+				.logo{
+					display: inline-block;
+					position: relative;
+					top: 10px;
+					right: initial;
+					width: 100px;
+				}
+				p.title{
+					display: inline-block;
+				}
+				.copy{
+					text-align: center;
+				}
+			}
+			.footer-menu{
+				ul{
+					padding-bottom: 10px;
+					li{
+						display: block;
+						padding: 7px;
+						&:after{
+							display: none;
+						}
+						a{
+							font-size: 12px;
+							line-height: 18px;
+						}
+					}
+				}
+				p{
+					font-size: 12px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+	&.rtl{
+		footer{
+			.footer-container{
+				.left{
+					float: none;
+					ul{
+						text-align: center;
+					}
+				}
+				.footer-menu{
+					ul{
+						text-align: center;
+					}
+					p{
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}

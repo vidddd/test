@@ -1,0 +1,367 @@
+@media only screen and (max-width: 1900px) {
+	body{
+		main{
+			section{
+				&.russia{
+
+				}
+			}
+		}
+
+	}
+}
+@media only screen and (max-width: 1700px) {
+	body{
+		.container-bag{
+			left: 6%;
+			.content-bag{
+				img#bag{
+					width: 180px;
+				}
+			}
+		}
+		main{
+			section{
+				&.info{
+					.container-info{
+						max-width: 1000px;
+						.right{
+							padding-top: 180px;
+							padding-left: 45px;
+							h3{
+								font-size: 60px;
+								line-height: 60px;
+							}
+							p{
+								font-size: 20px;
+							}
+						}
+					}
+				}
+				&.feed{
+					.feed-container{
+						max-width: 1000px;
+					}
+				}
+			}
+		}
+		&.th{
+			main section.feed .feed-container .feed-header h1 {
+			    font-size: 64px;
+			}
+			main section.info .container-info .right h3{
+			    font-size: 50px;
+			}
+		}
+		&.kr{
+			main section.feed .feed-container .feed-header h1{
+				font-size: 60px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1650px) {
+	body{
+
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	body{
+		.container-bag{
+			left: 2%;
+		}
+		&.kr{
+			main section.feed .feed-container .feed-header h1{
+				font-size: 5px;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 1470px) {
+	body{
+		header{
+			width: calc(100% - 70px);
+		}
+		aside{
+			width: 70px;
+			.aside-container{
+				.languages-container{
+					.language{
+						width: 31px;
+						.country-name{
+							letter-spacing: 2px;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+		main{
+			section{
+				&.section{
+					width: calc(100% - 70px);
+				}
+				&.header-video{
+					width: calc(100% - 70px);
+				}
+				&.feed{
+					.feed-container{
+						max-width: 900px;
+						.participations{
+							.total{
+								float: none;
+								width: 100%;
+								text-align: center;
+								padding-top: 60px;
+								p{
+									span{
+										float: none;
+										display: inline-block;
+										width: 100%;
+										&.text-participation{
+											margin: 0;
+										}
+									}
+								}
+
+							}
+							.btn-particioations{
+								float: none;
+								width: 100%;
+								text-align: center;
+								.btn{
+									float: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		footer{
+			width: calc(100% - 70px);
+		}
+		&.th{
+			main section.feed .feed-container .feed-header h1 {
+			    font-size: 53px;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 1400px) {
+	body{
+		main{
+			section{
+				&.ronaldo-feeds{
+					.feeds-container{
+						padding: 0 20px;
+						.row{
+							margin-left: initial;
+							margin-right: initial;
+						}
+					}
+				}
+				&.subscription{
+					.subscription-container{
+						padding: 0 20px;
+						.row{
+							margin-left: initial;
+							margin-right: initial;
+						}
+					}
+				}
+			}
+		}
+		footer{
+			.footer-container{
+				padding: 35px 25px 35px 25px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	body{
+		main{
+			section{
+				&.russia{
+					h1{
+						font-size: 130px;
+						line-height: 105px;
+					}
+					.title{
+						h3{
+							font-size: 48px;
+							line-height: 48px;
+						}
+					}
+				}
+				&.subscription{
+					.subscription-container{
+						padding: 0 40px;
+						.row{
+							.right{
+								padding: 95px 0px 0px 40px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1200px) {
+	body{
+		.cookies{
+			.inner{
+				width:900px;
+			    margin-top: 27px;
+			}
+		}
+		main{
+			section{
+				&.info{
+					.container-info{
+						.right{
+							padding-left: 25px;
+							padding-right: 25px;
+							padding-top: 160px;
+						}
+						.left{
+							.container-gif{
+								width: 68%;
+								padding-top: 92%;
+							}
+						}
+					}
+				}
+				&.subscription{
+					.subscription-container{
+						padding: 0 40px;
+						.row{
+							.right{
+								.inner{
+									p{
+										padding-bottom: 30px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	body{
+		main{
+			section{
+				&.feed{
+					.feed-container{
+						.participations{
+							.total{
+								p{
+									font-size: 27px;
+									// span{
+									// 	font-size: 67px;
+									// }
+								}
+							}
+							.btn-particioations{
+								.btn{
+									&.btn-facebook{
+										width: 197px;
+									}
+									&.btn-instagram{
+										width: 231px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	body{
+		main{
+			section{
+				&.russia{
+					.title{
+						text-align: center;
+						h3{
+							display: block;
+							text-align: center;
+							&:nth-child(1){
+								left: initial;
+							}
+							&:nth-child(2){
+								left: initial;
+							}
+						}
+					}
+					.circle{
+						width: 520px;
+						height: 520px;
+						bottom: -54%;
+					}
+					img.catedral{
+						width: 419px;
+					}
+				}
+				&.subscription{
+					.subscription-container{
+						.row{
+							.right{
+								// padding: 32px 0px 0px 35px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.cookies{
+		.inner{
+			width:100%;
+		    margin-top: 27px;
+		}
+	}
+}
+
+@media only screen and (max-height: 800px) and (min-width: 1024px) {
+	body{
+		main{
+			section{
+				&.russia{
+				    height: 675px;
+				    .circle{
+				    	.ball{
+				    		
+				    	}
+				    }
+					img{
+						&.catedral{
+						    width: 475px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+.h1_dashboard{
+	font-size:50px;
+}
+#data-table-modules{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#data-table-modules tbody tr:not(.disable-sort-item){
+	cursor: move;
+}
+.panel-title .delete-slider{
+	position: absolute;
+    right: 0;
+    top: 7px;
+    cursor: pointer;
+}
+.concert_selected{
+	display: none;
+}
+.concert_selected.showing{
+	display: block;
+}
+.delete-support{
+	position: absolute;
+    right: 8px;
+    top: 13px;
+    cursor: pointer;
+}
+#current_artists tr td{
+	position: relative;
+}
+.delete-concert{
+	position: absolute;
+    right: 8px;
+    top: 13px;
+    cursor: pointer;
+}
+#current_concerts tr td{
+	position: relative;
+}
+
+#countries_lang_chosen {
+	width: 20% !important;
+	float: right;
+}
+
+#countries_lang_chosen .chosen-search:before {
+	padding: 15px 0 0 15px;
+}
+
+#countries_lang_chosen .chosen-single abbr {
+	top: 14px;
+}
+
+.logo{
+	position: relative;
+	top:-9px;
+}
+
+.logo a {
+	float: left;
+}
+#toggle-width{
+	margin-top: 6px;
+}
